@@ -1,20 +1,19 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:surveyadmin/cubit/theme/theme_cubit.dart';
 import 'package:surveyadmin/firebase_options.dart';
 import 'package:surveyadmin/util/app_theme.dart';
 import 'package:surveyadmin/util/route_settings.dart';
-
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
+  usePathUrlStrategy();
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override

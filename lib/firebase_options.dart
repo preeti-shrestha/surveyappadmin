@@ -21,15 +21,9 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
@@ -48,31 +42,50 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyB1jJ_vXVubf9XVxpuaVox9j7gyXAb0aYU',
-    appId: '1:16500192762:web:00632d083a23cbdb1f6043',
+    appId: '1:16500192762:web:de4ff836427494231f6043',
     messagingSenderId: '16500192762',
     projectId: 'survey-app-f029a',
     authDomain: 'survey-app-f029a.firebaseapp.com',
     storageBucket: 'survey-app-f029a.firebasestorage.app',
-    measurementId: 'G-7F02NQTB5R',
+    measurementId: 'G-PZLYGMBNTT',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyB1jJ_vXVubf9XVxpuaVox9j7gyXAb0aYU',
-    appId: '1:16500192762:web:00632d083a23cbdb1f6043',
+    appId: '1:16500192762:web:cea7977f2b0dcfc41f6043',
     messagingSenderId: '16500192762',
     projectId: 'survey-app-f029a',
     authDomain: 'survey-app-f029a.firebaseapp.com',
     storageBucket: 'survey-app-f029a.firebasestorage.app',
-    measurementId: 'G-7F02NQTB5R',
+    measurementId: 'G-6RCF1TBHVQ',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBCbXurXbSTuw-M36NAh_oQzDMkzQziAeE',
-    appId: '1:16500192762:ios:21128b1cbdb9eec61f6043',
+    appId: '1:16500192762:ios:69e299f0d6ea929e1f6043',
     messagingSenderId: '16500192762',
     projectId: 'survey-app-f029a',
     storageBucket: 'survey-app-f029a.firebasestorage.app',
+    iosClientId: '16500192762-3lm7bvdtuh7hddsghq51b83c722pjhed.apps.googleusercontent.com',
     iosBundleId: 'com.example.surveyadmin',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBCbXurXbSTuw-M36NAh_oQzDMkzQziAeE',
+    appId: '1:16500192762:ios:69e299f0d6ea929e1f6043',
+    messagingSenderId: '16500192762',
+    projectId: 'survey-app-f029a',
+    storageBucket: 'survey-app-f029a.firebasestorage.app',
+    iosClientId: '16500192762-3lm7bvdtuh7hddsghq51b83c722pjhed.apps.googleusercontent.com',
+    iosBundleId: 'com.example.surveyadmin',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyCheY1dcPOaftr1ea7yOpWJBRpLfMjJVds',
+    appId: '1:16500192762:android:628bbbb539827ec31f6043',
+    messagingSenderId: '16500192762',
+    projectId: 'survey-app-f029a',
+    storageBucket: 'survey-app-f029a.firebasestorage.app',
   );
 
 }

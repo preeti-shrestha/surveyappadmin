@@ -12,12 +12,8 @@ class _AddformScreenState extends State<AddformScreen> {
   TextEditingController form_title=TextEditingController();
   TextEditingController form_description=TextEditingController();
   TextEditingController form_link=TextEditingController();
-  // TextEditingController form_name=TextEditingController();
-
   final dbReference=FirebaseFirestore.instance.collection('forms');
   final formkey=GlobalKey<FormState>();
-
-
   @override
   Widget build(BuildContext context) {
     return Form(
@@ -31,9 +27,7 @@ class _AddformScreenState extends State<AddformScreen> {
                 'Add New Form',
               style: Theme.of(context).textTheme.titleLarge,
             ),
-
             SizedBox(height: 20,),
-
             TextFormField(
               // maxLength: 50,
               controller: form_title,
@@ -60,9 +54,7 @@ class _AddformScreenState extends State<AddformScreen> {
                 return null;
               },
             ),
-
             SizedBox(height: 20,),
-
             TextFormField(
               // maxLength: 50,
               controller: form_description,
@@ -91,9 +83,7 @@ class _AddformScreenState extends State<AddformScreen> {
                 return null;
               },
             ),
-
             SizedBox(height: 20,),
-
             TextFormField(
               // maxLength: 50,
               controller: form_link,
@@ -124,9 +114,7 @@ class _AddformScreenState extends State<AddformScreen> {
                 return null;
               },
             ),
-
             SizedBox(height: 20),
-
             ElevatedButton(
                 onPressed: () async{
                   final isFormValid=formkey.currentState!.validate();

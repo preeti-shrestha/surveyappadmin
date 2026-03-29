@@ -9,25 +9,12 @@ import '../pages/userlogin/login_screen.dart';
 import '../pages/webview/webview_screen.dart';
 class RouteHelper{
   static String login='/';
-  static const String main='/main';
+  static const String main='/dashboard';
   static const String webView='/webView';
-  // static const String form='/form';
-  // static const String users='/users';
-  // static const String settings='/settings';
-  // static const String infoProfile='/infoProfile';
-  // static const String availableSurveys='/availableSurveys';
-  // static const String completedSurveys='/completedSurveys';
   static myRoutes(){
     return {
       login:(context)=>LoginForm(),
       main:(_)=>MainScreen(),
-      // dashboard:(_)=>DashboardScreen(),
-      // form:(_)=>FormScreen(),
-      // users:(_)=>UsersScreen(),
-      // infoProfile:(_)=>InfoProfileScreen(),
-      // availableSurveys:(_)=>AvailableformsScreen(),
-      // completedSurveys:(_)=>FilledformsScreen(),
-      // webView:(_)=>WebviewScreen(),
     };
   }
   static myGenerateRoutes(RouteSettings settings){

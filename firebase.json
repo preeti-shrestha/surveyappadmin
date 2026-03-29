@@ -1,1 +1,36 @@
-{"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"survey-app-f029a","configurations":{"macos":"1:16500192762:ios:21128b1cbdb9eec61f6043","web":"1:16500192762:web:00632d083a23cbdb1f6043","windows":"1:16500192762:web:00632d083a23cbdb1f6043"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "survey-app-f029a",
+          "configurations": {
+            "android": "1:16500192762:android:628bbbb539827ec31f6043",
+            "ios": "1:16500192762:ios:69e299f0d6ea929e1f6043",
+            "macos": "1:16500192762:ios:69e299f0d6ea929e1f6043",
+            "web": "1:16500192762:web:cea7977f2b0dcfc41f6043",
+            "windows": "1:16500192762:web:de4ff836427494231f6043"
+          }
+        }
+      },
+      "android": {
+        "default": {
+          "projectId": "survey-app-f029a",
+          "appId": "1:16500192762:android:628bbbb539827ec31f6043",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  }
+}

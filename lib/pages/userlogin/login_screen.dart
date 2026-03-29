@@ -110,7 +110,7 @@ class _LoginFormState extends State<LoginForm> {
                       ElevatedButton(
                           onPressed: (){
                             // if(formkey.currentState!.validate()){
-                              Navigator.pushReplacementNamed(context, RouteHelper.main);
+                              Navigator.pushNamedAndRemoveUntil(context, RouteHelper.main,(value)=>false);
                             // }
                           },
                           child: Text(

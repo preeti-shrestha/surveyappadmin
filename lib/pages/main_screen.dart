@@ -38,7 +38,7 @@ class _MainScreenState extends State<MainScreen> {
       body: Row(
         children: [
           SidebarX(
-              controller: _controller,
+            controller: _controller,
             theme: SidebarXTheme(
               width: 70,
               decoration: BoxDecoration(
@@ -50,7 +50,6 @@ class _MainScreenState extends State<MainScreen> {
                 color: Color(0xFFeee6ff),
                 borderRadius: BorderRadius.circular(10),
               ),
-              // hoverColor: Color(0xFFeee6ff),
               hoverIconTheme: IconThemeData(color: Colors.purple.shade50,size: 20),
               hoverTextStyle: Theme.of(context).textTheme.labelLarge,
               iconTheme: IconThemeData(color: Color(0xFFeee6ff),size: 20),

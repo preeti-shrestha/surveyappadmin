@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "16500192762",
+    "project_id": "survey-app-f029a",
+    "storage_bucket": "survey-app-f029a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16500192762:android:628bbbb539827ec31f6043",
+        "android_client_info": {
+          "package_name": "com.example.surveyadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16500192762-2tm2tp8gnstq3jtfbnff042l87at5at7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCheY1dcPOaftr1ea7yOpWJBRpLfMjJVds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16500192762-2tm2tp8gnstq3jtfbnff042l87at5at7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16500192762-3lm7bvdtuh7hddsghq51b83c722pjhed.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.surveyadmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16500192762:android:eeae74ac7fab7b471f6043",
+        "android_client_info": {
+          "package_name": "com.example.surveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16500192762-2tm2tp8gnstq3jtfbnff042l87at5at7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCheY1dcPOaftr1ea7yOpWJBRpLfMjJVds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16500192762-2tm2tp8gnstq3jtfbnff042l87at5at7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16500192762-3lm7bvdtuh7hddsghq51b83c722pjhed.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.surveyadmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
